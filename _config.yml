@@ -1,0 +1,33 @@
+# Site settings
+title: Cozinha SP
+description: ""
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: ""
+logo: "/assets/images/cozinha-logo.png"
+
+# Build settings
+markdown: kramdown
+
+sass:
+ style: :compressed
+
+#logo dos parceiros
+parceiros:
+ - title: "Prefeitura de SP"
+   logo: "prefeitura-se-logo.png"
+ - title: "APAN"
+   logo: "apan-logo.png"
+ - title: "Cooperapas"
+   logo: "cooperaras"
+ - title: "kairós"
+   logo: "kairos"
+ - title: "contain"
+   logo: "contain"
+ - title: "Escola Wilma Koveski de cozinha"
+   logo:
+
+#footer
+desenvolvedor-nome: "Núcleo"
+desenvolvedor-logo: "/assets/images/nucleo-logo.png"
+realizador-nome: "Instituto Mobilidade Verde"
+realizador-logo: "/assets/images/instituto-logo.png"

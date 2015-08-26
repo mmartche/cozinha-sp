@@ -1,0 +1,46 @@
+<div class="row jumbo">
+	<div class="col-md-4">
+		<div class="jumbotron fundo-purple">
+			<div class="img-jumbo fundo-purple">
+				<img src="/assets/images/jumbo-panela.png" title="">
+			</div>
+			<div class="container jumbo-content">
+				<h2>{% include painel.html text="ONDE ESTAMOS" cor="purple" %}</h2>
+				<div class="mapa">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.3793868947864!2d-46.663948599999976!3d-23.554813999999986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce582c47f6136d%3A0x1bc15f235351861a!2sPra%C3%A7a+Marechal+Cordeiro+de+Farias%2C+Pra%C3%A7a+dos+Arcos!5e0!3m2!1sen!2sbr!4v1440192752411" width="315" height="315" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+				<div class="texto">Praça dos Arcos - Consolação <br />- São Paulo - SP</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-4">
+		<div class="jumbotron fundo-blue">
+			<div class="img-jumbo fundo-blue">
+				<img src="/assets/images/jumbo-caneca.png" title="">
+			</div>
+			<div class="container jumbo-content">
+				<h2>{% include painel.html text="NOSSOS PILARES" cor="blue" %}</h2>
+				{% include carousel.html %}
+			</div>
+		</div>
+	</div>
+	<div class="col-md-4">
+		<div class="jumbotron fundo-green">
+			<div class="img-jumbo fundo-green">
+				<img src="/assets/images/jumbo-prato.png" title="">
+			</div>
+			<div class="container jumbo-content">
+				<h2>{% include painel.html text="AGENDA" cor="green" %}</h2>
+				<div>
+					<p class="texto">Os workshops, palestras e eventos da área gastronômica começam a partir de agosto. Inscreva-se na  </p>
+					<!-- <p class="texto">Os workshops, palestras e eventos da área gastronômica começam a partir de agosto. Inscreva-se na nossa newsletter para ser notificado assim que a agenda estiver disponível! </p> -->
+					<div class="separator">|</div>
+					<span class="texto">COZINHEIRO DO MÊS</span>
+					<p class="texto">Saboreie as delicias feitas por:</p>
+					<img src="/assets/images/foto-perfil.png" alt="foto" class="redondo">
+					<p>Wellington</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="home-top">
+    	<img src="/assets/images/bg-vermelho.png">
+    </div>
+
+    <div class="site">
+	    	
+	    	{{ content }}
+
+		    <div class="separator">|</div>
+		    
+		    {% include painel.html text="CADASTRE-SE" cor="pink" %}
+			
+			<p class="texto">Preencha seu nome e e-mail para receber novidades sobre o menu e workshops:</p>
+			
+			{% include formulario.html %}
+
+			{% include jumbo.html %}
+
+
+	</div>
+	<div class="home-bottom">
+		<img src="/assets/images/bg-vermelho-rodape.png" class="home-bottom-desktop">
+		<img src="/assets/images/bg-verde.png" class="home-bottom-mobile">
+	</div>
+	
+	{% include parceiros.html %}
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
